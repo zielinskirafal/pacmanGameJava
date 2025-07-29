@@ -22,7 +22,7 @@ A unique browser-based Pacman game where you collect Trimble logos instead of pe
 
 1. Navigate to the project directory:
    ```bash
-   cd pacman
+   cd pacmanGameJava
    ```
 
 2. Build the project:
