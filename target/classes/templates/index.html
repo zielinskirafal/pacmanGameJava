@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacman Game</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Pacman - Trimble Edition</h1>
+        <div class="game-info">
+            <span>Score: <span id="score">0</span></span>
+            <span>Lives: <span id="lives">3</span></span>
+        </div>
+        <canvas id="gameCanvas" width="570" height="630"></canvas>
+        <div class="controls">
+            <p>Use Arrow Keys to collect Trimble logos!</p>
+            <button id="startBtn" onclick="startGame()">Start Game</button>
+            <button id="pauseBtn" onclick="pauseGame()">Pause</button>
+            <button id="resetBtn" onclick="resetGame()">Reset</button>
+        </div>
+    </div>
+    <script src="/pacman.js"></script>
+</body>
+</html> 
